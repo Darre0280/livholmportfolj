@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liv Holm — Scandinavian Soft Luxury Portfolio</title>
+    <meta
+      name="description"
+      content="Liv Holm is a premium digital persona for fashion, beauty, travel, hospitality, accessories, and lifestyle collaborations."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="wordmark">Liv Holm</a>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#collaborate">Collaborate</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Liv Holm</p>
+            <h1 id="hero-title">Scandinavian soft luxury</h1>
+            <p class="lead">
+              A premium digital persona for fashion, beauty, travel, and lifestyle collaborations.
+            </p>
+            <a href="#portfolio" class="button">Selected Work</a>
+          </div>
+          <figure class="hero-image reveal">
+            <img
+              src="assets/images/hero-liv-holm.svg"
+              alt="Editorial portrait placeholder for Liv Holm"
+              loading="eager"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section motion" aria-labelledby="motion-title">
+        <div class="container narrow reveal">
+          <h2 id="motion-title">Motion</h2>
+          <p class="section-intro">Editorial moving image for campaign previews and hospitality stories.</p>
+          <div class="video-shell" id="motion-shell">
+            <video id="brand-reel" controls preload="metadata" poster="assets/images/reel-poster.svg">
+              <source src="assets/video/liv-holm-reel.mp4" type="video/mp4" />
+            </video>
+            <div class="video-placeholder" id="video-placeholder" hidden>
+              <p>Drop your reel into <code>assets/video/liv-holm-reel.mp4</code> to activate this section.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 id="portfolio-title">Selected portfolio</h2>
+            <p class="section-intro">Curated stills tailored for premium and sponsor-friendly storytelling.</p>
+          </div>
+          <div class="portfolio-grid">
+            <figure class="tile large reveal">
+              <img src="assets/images/portfolio-fashion.svg" alt="Fashion editorial placeholder" loading="lazy" />
+            </figure>
+            <figure class="tile reveal">
+              <img src="assets/images/portfolio-beauty.svg" alt="Beauty close-up placeholder" loading="lazy" />
+            </figure>
+            <figure class="tile reveal">
+              <img src="assets/images/portfolio-travel.svg" alt="Travel scene placeholder" loading="lazy" />
+            </figure>
+            <figure class="tile wide reveal">
+              <img src="assets/images/portfolio-hospitality.svg" alt="Hospitality interior placeholder" loading="lazy" />
+            </figure>
+            <figure class="tile reveal">
+              <img src="assets/images/portfolio-accessories.svg" alt="Accessories still life placeholder" loading="lazy" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="collaborate" aria-labelledby="collaborate-title">
+        <div class="container columns">
+          <div class="reveal">
+            <h2 id="collaborate-title">Why collaborate</h2>
+          </div>
+          <ul class="value-list reveal">
+            <li>Consistent identity aligned with refined premium brand systems.</li>
+            <li>High quality visual output across still and motion formats.</li>
+            <li>Sponsor-safe direction with clear commercial adaptability.</li>
+            <li>Scalable production cadence for campaigns and evergreen assets.</li>
+            <li>Natural relevance across multiple lifestyle and luxury-adjacent categories.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="lanes-title">
+        <div class="container narrow reveal">
+          <h2 id="lanes-title">Brand fit</h2>
+          <ul class="lane-list" aria-label="Content lanes">
+            <li>Fashion</li>
+            <li>Beauty</li>
+            <li>Travel</li>
+            <li>Hospitality</li>
+            <li>Accessories</li>
+            <li>Lifestyle</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="container narrow reveal">
+          <h2 id="contact-title">Collaboration contact</h2>
+          <p>For partnerships, campaign briefs, and media kits:</p>
+          <p><a href="mailto:hello@livholmstudio.com">hello@livholmstudio.com</a></p>
+          <p class="small">Placeholder contact details. Replace with official representation as needed.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Liv Holm. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
