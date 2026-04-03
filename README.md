@@ -46,7 +46,28 @@ Then open: <http://localhost:8000>
 assets/video/liv-holm-reel.mp4
 ```
 
-If the file is missing, the motion section automatically shows a clean placeholder message.
+The motion section also checks these alternative filenames automatically:
+
+```text
+assets/video/hf_20260329_154253_207923e7-daf3-48c7-a0db-368a11e60f19.mp4
+assets/video/reel.mp4
+```
+The video player includes these filenames as fallback `<source>` entries, so adding any one of them is enough.
+
+### Expected image filenames (current layout)
+
+```text
+assets/images/LH_PORTFOLIO_01_HERO_IDENTITY.png
+assets/images/LH_PORTFOLIO_02_BEAUTY_RITUAL_SKINCARE.png
+assets/images/LH_PORTFOLIO_03_JEWELRY_BRANDABLE.png
+assets/images/LH_PORTFOLIO_04_LIFESTYLE_SOCIAL.jpeg
+assets/images/LH_PORTFOLIO_05_HOTEL_INTERIOR.png
+assets/images/LH_PORTFOLIO_06_WATERFRONT_TRAVEL_GOLDEN.png
+assets/images/LH_PORTFOLIO_07_PRODUCT_INTEGRATION.png
+assets/images/LH_PORTFOLIO_08_AT_HOME_REALISM.png
+assets/images/LH_PORTFOLIO_09_JEWELRY_CLOSE.png
+assets/images/LH_PORTFOLIO_10_CLEAN_BRAND_DECK_IMAGE.png
+```
 
 ## Deploy on GitHub Pages
 

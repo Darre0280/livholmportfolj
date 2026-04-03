@@ -3,20 +3,6 @@ if (yearElement) {
   yearElement.textContent = String(new Date().getFullYear());
 }
 
-const reel = document.getElementById('brand-reel');
-const placeholder = document.getElementById('video-placeholder');
-
-if (reel && placeholder) {
-  reel.addEventListener('error', () => {
-    reel.hidden = true;
-    placeholder.hidden = false;
-  });
-
-  reel.addEventListener('loadeddata', () => {
-    placeholder.hidden = true;
-  });
-}
-
 const revealItems = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window && revealItems.length) {
   const observer = new IntersectionObserver(
