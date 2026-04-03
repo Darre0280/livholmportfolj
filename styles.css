@@ -49,7 +49,7 @@
   }
   
   .section {
-    padding: clamp(4rem, 8vw, 7.5rem) 0;
+    padding: clamp(5rem, 9vw, 9.5rem) 0;
   }
   
   .site-header {
@@ -182,7 +182,7 @@
   
   .portfolio-grid {
     display: grid;
-    gap: 1.1rem;
+    gap: 1.5rem;
     grid-template-columns: repeat(6, 1fr);
   }
   
@@ -227,7 +227,7 @@
   
   .columns {
     display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
+    grid-template-columns: 0.95fr 1.05fr;
     gap: 2rem;
   }
   
